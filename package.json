@@ -16,7 +16,10 @@
     "deploy": "npm run build && gh-pages -d build",
     "prepublish": "npm run lint && npm run build:umd"
   },
-  "main": "src/react-image-lightbox.js",
+  "main": "dist/umd/react-image-lightbox.js",
+  "files: [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/fritz-c/react-image-lightbox.git"
