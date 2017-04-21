@@ -162,6 +162,8 @@ class ReactImageLightbox extends Component {
             // Make opening animation play
             this.setState({ isClosing: false });
         }
+
+        Modal.setAppElement('body');
     }
 
     componentDidMount() {
