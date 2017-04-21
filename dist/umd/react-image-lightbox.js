@@ -497,7 +497,7 @@
                     this.moveRequested = !1, this.props.animationDisabled || // Make opening animation play
                     this.setState({
                         isClosing: !1
-                    });
+                    }), _reactModal2.default.setAppElement("body");
                 }
             }, {
                 key: "componentDidMount",
